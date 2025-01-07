@@ -1,0 +1,37 @@
+Unit Conversion and Fundamental Constants
+
+Purpose
+This program performs unit conversions across various physical quantities such as length, mass, time, volume, energy, temperature, amount, pressure, and velocity. It also includes functionality to display a table of fundamental constants along with their values and units.
+
+How it Works
+1. Users choose a type of conversion (e.g., length, mass, etc.).
+2. The program prompts for the input and output units and the value to convert.
+3. Conversion factors are applied to compute the result, supporting bidirectional conversions.
+4. The program also includes a table of fundamental constants that can be printed in a text-friendly format for reference.
+
+Features
+Comprehensive Unit Conversion: Supports conversions for:
+  - Length (e.g., meters, kilometers, miles, etc.)
+  - Mass (e.g., kilograms, pounds, atomic mass units, etc.)
+  - Time (e.g., seconds, minutes, years, etc.)
+  - Volume (e.g., liters, gallons, etc.)
+  - Energy (e.g., joules, electronvolts, calories, etc.)
+  - Temperature (Celsius, Fahrenheit, Kelvin)
+  - Amount (moles, particles)
+  - Pressure (e.g., atmospheres, Pascals, psi, etc.)
+  - Velocity (e.g., meters per second, mph, fraction of the speed of light, etc.)
+
+Fundamental Constants Table: Displays constants such as:
+  - Speed of Light
+  - Planck Constant
+  - Gravitational Constant
+  - Avogadro's Number
+  - Electron Charge
+  - Boltzmann Constant
+  - Etc..
+
+Interactive Loop: Allows users to perform multiple conversions in a single session.
+
+Dependencies
+Python 3.x
+Libraries: numpy, pandas

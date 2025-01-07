@@ -1,0 +1,22 @@
+Error Propagation
+
+Purpose
+This program calculates the first-order propagation of uncertainties for a multivariable function. It is useful for estimating the error in a computed quantity based on the errors in the measured variables.
+
+How it Works
+1. The function to evaluate is predefined in the code.
+2. Users input arrays of measured values and their uncertainties for the variables.
+3. Partial derivatives of the function with respect to each variable are calculated symbolically using sympy.
+4. The program computes the propagated uncertainty using the formula:
+   σ_f = √(Σ_i [(∂f/∂x_i) * σ_x_i]^2)
+5. The result includes the evaluated function value and the propagated uncertainty.
+
+Features
+Predefined Function: Function is defined in the code (e.g., f(x, y, z) = x^2 + y * z).
+Dynamic Variable Input: Users provide measured values and uncertainties as arrays.
+Symbolic Differentiation: Uses sympy to calculate partial derivatives.
+Error Propagation Calculation: Computes the propagated uncertainty based on first-order error propagation formula.
+
+Dependencies
+Python 3.x
+Libraries: numpy, sympy
