@@ -1,0 +1,19 @@
+Purpose
+Solve for the roots of a mathematical function using numerical methods, specifically Newton's Method and the Bisection Method, while providing a visualization of the function for initial estimation.
+
+Features
+Newton's Method:
+Uses numerical derivatives to iteratively converge to a root.
+Requires an initial guess for root estimation.
+
+Bisection Method:
+Utilizes bracketing of roots within an interval and iteratively reduces the interval size.
+Ensures convergence if the root exists within the specified interval.
+
+Function Plotting:
+Visualizes the function over a specified range to assist in selecting initial guesses and intervals.
+
+Dependencies
+Python 3.x
+NumPy
+Matplotlib
