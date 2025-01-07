@@ -1,0 +1,23 @@
+Purpose
+
+Visualize and approximate a mathematical curve using tangent lines and scatter plots with linear interpolation.
+
+Features
+
+Tangent Line Approximation:
+Generates tangent lines across the curve for visualization.
+Superposes tangent lines with the original function.
+Provides a standalone tangent line approximation plot.
+
+
+Scatter Plot Approximation:
+Generates scatter points along the curve.
+Interpolates the curve with linear segments.
+Plots both the original function and linear interpolation.
+Customizable input for x-range, number of points, and step size.
+
+
+Dependencies
+Python 3.x
+NumPy
+Matplotlib
