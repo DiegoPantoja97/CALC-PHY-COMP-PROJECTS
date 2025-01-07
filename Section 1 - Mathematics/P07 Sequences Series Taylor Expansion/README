@@ -1,0 +1,23 @@
+Purpose:
+This project provides tools for analyzing sequences and series, generating recursive and explicit sequences, and approximating functions using Taylor series expansions. It demonstrates numerical methods and visualizations for understanding the behavior of mathematical sequences and series.
+
+Features:
+1. Sequence and Series Analysis:
+   - Generate sequences recursively or explicitly.
+   - Compute finite summations of sequences.
+   - Analyze the behavior of special sequences such as the Fibonacci sequence, harmonic series, and Gregory-Leibniz series for π.
+   - Print tables of coefficients and visualize sequences and series with scatter plots.
+
+2. Recurrence Relations:
+   - Generate coefficients for power series using recurrence relations.
+   - Display index-coefficient relations in tabular format.
+
+3. Taylor Series Approximation:
+   - Numerically approximate the Taylor series expansion of a function.
+   - Compute up to the fourth derivative using finite difference methods.
+   - Visualize the Taylor approximation alongside the original function over a restricted range.
+
+Dependencies:
+- Python 3.x
+- NumPy
+- Matplotlib
