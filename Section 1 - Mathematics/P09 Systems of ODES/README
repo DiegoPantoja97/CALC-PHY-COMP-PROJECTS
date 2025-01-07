@@ -1,0 +1,34 @@
+Project: Systems of Ordinary Differential Equations (ODEs)
+
+Purpose:
+This project provides numerical and analytical tools for solving systems of ordinary differential equations, with applications to linear and nonlinear systems, both first-order and second-order. It includes methods for explicit solutions, numerical integration, and phase portrait analysis.
+
+Features:
+1. RK4 Method for General Systems:
+   - Solves any system of first-order ODEs using the fourth-order Runge-Kutta (RK4) method.
+   - Suitable for nonlinear and non-autonomous systems.
+
+2. Linear Systems of ODEs:
+   - Solves linear systems of the form \( \frac{dy}{dt} = Ay + b(t) \).
+   - Computes solutions using the matrix exponential \( e^{At} \) and variation of parameters for the particular solution.
+
+3. Second-Order ODE Systems:
+   - Directly solves second-order ODEs (e.g., coupled oscillators) without converting to a system of first-order equations.
+   - Includes phase portrait visualization for second-order systems.
+
+4. Phase Portrait Analysis:
+   - Visualizes the behavior of solutions in phase space.
+   - Computes vector fields to indicate trajectories for first-order systems.
+
+5. Forcing and Nonhomogeneous Terms:
+   - Handles systems with forcing terms and computes particular solutions via variation of paramater - integral methods.
+
+6. Numerical Stability and Accuracy:
+   - Employs finite difference methods for stability in second-order ODE systems.
+   - Supports normalized vector fields for clear phase portraits.
+
+Dependencies:
+- Python 3.x
+- NumPy
+- Matplotlib
+- SciPy
