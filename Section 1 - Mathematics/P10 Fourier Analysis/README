@@ -1,0 +1,31 @@
+Project: Fourier Analysis of Signals
+
+Purpose:
+This project provides tools for analyzing signals in the frequency domain using the Discrete Fourier Transform (DFT) and its inverse (IDFT). It demonstrates the spectral decomposition of signals and the reconstruction of signals from their frequency components, with applications to periodic and non-periodic signals.
+
+Features:
+1. Signal Definition:
+   - Implements custom signal definitions, including square waves and Gaussian signals.
+   - Allows users to specify signal parameters such as frequency, amplitude, mean, and standard deviation.
+
+2. Discrete Fourier Transform (DFT):
+   - Computes the frequency spectrum of sampled signals.
+   - Supports visualization of the magnitude spectrum, including negative frequencies.
+
+3. Inverse Discrete Fourier Transform (IDFT):
+   - Reconstructs the original signal from its frequency components.
+   - Demonstrates the accuracy of the Fourier Transform by comparing reconstructed signals to the original.
+
+4. Visualization:
+   - Plots the original signal in the time domain.
+   - Visualizes the magnitude spectrum in the frequency domain.
+   - Displays the reconstructed signal for comparison with the original.
+
+5. Applications:
+   - Suitable for analyzing both periodic (e.g., square waves) and non-periodic (e.g., Gaussian) signals.
+   - Provides insights into the harmonic content and frequency distribution of signals.
+
+Dependencies:
+- Python 3.x
+- NumPy
+- Matplotlib
