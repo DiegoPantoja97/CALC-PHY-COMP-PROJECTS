@@ -1,0 +1,24 @@
+Project: First-Order ODE Solver
+
+Purpose:
+Solve first-order ordinary differential equations (ODEs) numerically using three different methods and compare their results.
+
+Features:
+1. Numerical Methods:
+   - Euler's Method: A straightforward iterative method for approximating ODE solutions.
+   - Improved Euler's Method (Heun's Method): A refined version of Euler's method for increased accuracy.
+   - RK4 Method: A fourth-order Runge-Kutta method for high-accuracy ODE solutions.
+
+2. Visualization:
+   - Individual plots for each method showcasing their approximations.
+   - A combined plot for comparing the results of all three methods.
+
+3. Customizability:
+   - User-defined initial conditions (`x0`, `y0`).
+   - Custom input for the endpoint of the range (`x_end`) and the number of steps (`n`).
+   - Replaceable function definition (`f(x, y)`) for solving different ODEs.
+
+Dependencies:
+- Python 3.x
+- NumPy
+- Matplotlib
