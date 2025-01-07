@@ -1,25 +1,25 @@
-# Project: Definite Integral Estimation
+Project: Definite Integral Estimation
 
-## Purpose
+Purpose:
 Estimate the area under a curve for a given mathematical function using numerical integration methods, and visualize both the exact area and approximations.
 
-## Features
-1. **Numerical Integration Methods**:
-   - **Left Endpoint Approximation**: Uses the left endpoints of intervals to estimate the area.
-   - **Right Endpoint Approximation**: Uses the right endpoints of intervals to estimate the area.
-   - **Midpoint Approximation**: Uses the midpoints of intervals for better accuracy.
-   - **Trapezoid Rule**: Approximates the area using trapezoidal slices.
-   - **Simpson’s Rule**: Provides a higher-order approximation by combining parabolic arcs.
+Features:
+1. Numerical Integration Methods:
+   - Left Endpoint Approximation: Uses the left endpoints of intervals to estimate the area.
+   - Right Endpoint Approximation: Uses the right endpoints of intervals to estimate the area.
+   - Midpoint Approximation: Uses the midpoints of intervals for better accuracy.
+   - Trapezoid Rule: Approximates the area using trapezoidal slices.
+   - Simpson’s Rule: Provides a higher-order approximation by combining parabolic arcs.
 
-2. **Visualization**:
+2. Visualization:
    - Plots the exact area under the curve as a shaded region.
    - Visualizes the area approximated by geometric rectangles for selected methods (left, right, or midpoint).
 
-3. **Interactive Inputs**:
-   - Allows users to input bounds (`a`, `b`) and the number of intervals (`n`).
+3. Interactive Inputs:
+   - Allows users to input bounds (a, b) and the number of intervals (n).
    - Interactive selection of the approximation method for visualization.
 
-## Dependencies
+Dependencies:
 - Python 3.x
 - NumPy
 - Matplotlib
