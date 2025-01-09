@@ -1,2 +1,5 @@
 # CALC-PHY-COMP-PROJECTS
-Lower undergraduate calc based Physics computational projects
+
+Composed of Various Physics Projects
+
+
