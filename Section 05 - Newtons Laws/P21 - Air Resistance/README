@@ -1,0 +1,24 @@
+Project 21
+
+
+Title
+Projectile Motion and Free Fall Simulations
+
+Purpose
+This project provides numerical simulations and visualizations of projectile motion and free fall under different drag conditions. It includes animations, trajectory plots, and range calculations for varying angles and drag models. The goal is to explore the effects of air resistance (linear and quadratic) on motion dynamics.
+
+Features
+- Simulate free fall with and without air drag (linear and quadratic).
+- Animate the motion of objects under free fall and projectile motion.
+- Plot acceleration, velocity, and position as a function of time for different drag conditions.
+- Compute and visualize the projectile range for angles from 0.1° to 89.9° under different drag models.
+- Interactive animations embedded for inline viewing in Jupyter Notebook.
+
+Dependencies
+- Python 3.7 or higher
+- numpy
+- matplotlib
+- IPython
+
+To install dependencies:
+pip install numpy matplotlib ipython
