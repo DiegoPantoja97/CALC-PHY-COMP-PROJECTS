@@ -1,0 +1,37 @@
+Project 17
+
+Title
+
+Inclined Plane Block Simulation and Comparison with Free-Falling Ball
+
+Purpose
+
+Demonstrate classical mechanics concepts involving friction, free fall, and motion on an inclined plane. The project covers:
+1. Rendering a plane and a block with force vectors  
+2. Simulating the block sliding down if friction is overcome  
+3. Dropping a ball (in free fall) alongside for comparison  
+4. Visualizing results through an animation and time-series plots  
+
+Features
+
+1. Static Incline Figure  
+   Renders an inclined plane at angle θ, with a block placed at the top.  
+   Shows mg, N, friction f, and the mg sinθ and mg cosθ components.  
+
+2. Block Sliding Simulation  
+   Uses simple friction logic.  
+   If mg sinθ ≤ μ mg cosθ, the block remains at rest; otherwise, it slides down.  
+
+3. Animation (Block on Plane vs. Free-Falling Ball)  
+   The block slides down; a ball is dropped from the same height in free fall.  
+   Highlights that the free-falling ball generally accelerates more quickly.  
+
+4. Vertical Position Plot  
+   Compares y(t) of both objects, illustrating the block’s slower descent due to friction and plane geometry.
+
+Dependencies
+
+- Python 3  
+- NumPy for array handling  
+- Matplotlib for plotting and animation  
+- (Recommended) Jupyter Notebook for inline animation display  
