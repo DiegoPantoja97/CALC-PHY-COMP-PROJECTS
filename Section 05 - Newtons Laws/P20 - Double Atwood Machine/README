@@ -1,0 +1,19 @@
+Project 20
+
+
+Double Atwood Machine Simulation
+
+Purpose
+This project simulates the motion of a **Double Atwood Machine**, a system involving three masses connected by ropes and pulleys. The simulation animates the resultant motion of the masses based on given accelerations derived from the equations of motion.
+
+Features
+- Computes accelerations of each mass based on their respective equations of motion.
+- Simulates the positions of the masses over time using numerical integration.
+- Animates the motion of the masses with horizontal offsets for clarity.
+- Adjustable parameters for mass values, rope lengths, and gravitational acceleration.
+
+Dependencies
+The project requires the following Python libraries:
+- `numpy` for numerical computations.
+- `matplotlib` for creating the animation and visualizing the motion.
+- `IPython` for embedding the animation inline in Jupyter Notebooks.
