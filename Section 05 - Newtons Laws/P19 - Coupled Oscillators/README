@@ -1,0 +1,21 @@
+Project 19
+
+Coupled Oscillators Simulation and Visualization
+
+Purpose
+This project simulates and visualizes the dynamics of two masses connected by three springs using numerical methods. It provides both a real-time animation of the system's behavior and static plots of the displacement over time. This serves as an educational tool to understand coupled harmonic oscillators and their numerical solutions.
+
+Features
+Dynamic Visualization Animates the motion of the two masses in real time, showing their oscillations and the changing lengths of the springs.
+Numerical Simulation Solves the coupled differential equations governing the system using Python's solve_ivp with the RK45 method.
+Static Plotting Plots displacement versus time for both masses to analyze their behavior.
+Customization Adjustable parameters for spring constants, masses, and natural lengths.
+High-Resolution Animation Supports extended simulation times with smooth animations.
+
+Dependencies
+To run this project, ensure the following Python libraries are installed
+
+numpy For numerical calculations.
+matplotlib For plotting and animations.
+scipy For solving differential equations.
+IPython For embedding animations in Jupyter Notebook.
