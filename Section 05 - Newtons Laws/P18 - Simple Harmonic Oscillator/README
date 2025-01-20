@@ -1,0 +1,23 @@
+Project 18
+
+Title
+SHM Visualization and Dynamic Simulation
+
+Purpose
+This project provides a comprehensive visualization and simulation of simple harmonic motion (SHM). It includes both static and animated visualizations of a mass-spring system, along with the ability to dynamically explore the general solution of SHM using interactive sliders.
+
+Features
+1. Static visualization of a mass-spring system with annotated vectors for displacement, restoring force, and velocity.
+2. Animated simulation of a block's motion in SHM with a dynamically scaled velocity vector.
+3. Additional animations showing the evolution of position, velocity, and acceleration over time.
+4. Interactive plot for the general SHM solution, allowing real-time adjustments to parameters such as spring constant (k), mass (m), amplitude (x₀), and phase shift (ϕ).
+
+Dependencies
+1. Python 3.x
+2. NumPy
+3. Matplotlib
+4. SciPy
+5. IPython (for interactive HTML animations and slider support)
+
+This project offers a modular and user-friendly approach to exploring the behavior of SHM in both static and dynamic contexts. Perfect for physics education, research, and demonstrations.
+
