@@ -1,0 +1,18 @@
+Rotating Frame Simulation
+
+Purpose
+This project simulates the motion of particles within rotating and non-rotating reference frames to visualize concepts such as Coriolis force and centripetal acceleration. 
+The animation provides an intuitive understanding of how objects move differently in inertial and non-inertial frames, with a focus on straight-line motion relative to the center of a rotating disk.
+
+Features
+- Plot of Particle stuck in uniform circular motion with live velocity and acceleration tracking vectors
+- Rotating Disk Animation: Visualizes a disk rotating at a specified angular velocity.
+- Inertial Frame Simulation: Displays particles following straight-line trajectories toward the center, superimposed on a rotating disk.
+- Non-Inertial Frame Simulation: Simulates the same particle motion as observed in a rotating reference frame, illustrating curved trajectories.
+- Interactive Visualizations: Animations dynamically show particle trajectories, disk rotation, and the differences between frames.
+
+Dependencies
+This project requires the following Python libraries:
+- Matplotlib: For generating animations and visualizations.
+- NumPy: For numerical calculations, such as trajectory computations and coordinate transformations.
+- IPython: For embedding animations in Jupyter Notebooks.
